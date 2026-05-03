@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Rakshitha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header>
+        <a href="index.html" class="logo">Port<span>folio.</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="certification.html">Certification</a>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="section-header reveal">
+            <h1 class="section-title">Get In <span>Touch</span></h1>
+            <p class="section-subtitle">Have a question or want to work together? Feel free to reach out!</p>
+        </div>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="glass-card reveal">
+                <form action="#" class="contact-form" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="input-group">
+                            <input type="text" placeholder="Your Name" required style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 12px; color: white;">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Your Email" required style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 12px; color: white;">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Subject" style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 12px; color: white;">
+                    </div>
+                    <div class="input-group">
+                        <textarea rows="6" placeholder="Your Message" required style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 12px; color: white; resize: none;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: fit-content; align-self: center;">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+            
+            <div class="reveal" style="margin-top: 3rem; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+                <div style="text-align: center;">
+                    <i class="fas fa-envelope" style="font-size: 1.5rem; color: var(--accent-secondary); margin-bottom: 0.5rem;"></i>
+                    <p style="color: var(--text-muted);">Email Me</p>
+                    <a href="mailto:rakshitha@example.com" style="color: var(--text-main); text-decoration: none;">rakshitha@example.com</a>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fas fa-phone" style="font-size: 1.5rem; color: var(--accent-secondary); margin-bottom: 0.5rem;"></i>
+                    <p style="color: var(--text-muted);">Call Me</p>
+                    <a href="tel:+1234567890" style="color: var(--text-main); text-decoration: none;">+1 234 567 890</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-socials">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:rakshitha@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2024 Rakshitha. Built with passion & precision.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
